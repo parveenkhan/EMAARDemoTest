@@ -91,10 +91,11 @@
     cell.countryLabel.text = [self.presenterWrapper getCountryFormatedText: user.country];
     cell.loginStatus.text = [self.presenterWrapper getFormattedLoginStatusWithDateString:user.dateOfJoining];
     
-    
     [cell.leftImageView sd_setImageWithURL:[NSURL URLWithString:user.thumbnailImageURL] completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
         if (error) {
             NSLog(@"Error loading image from URL: %@", error);
+        } else {
+            //save image data in core data
         }
     }];
     

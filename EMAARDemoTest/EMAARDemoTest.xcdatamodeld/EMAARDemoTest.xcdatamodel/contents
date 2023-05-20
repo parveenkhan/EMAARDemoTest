@@ -9,13 +9,15 @@
         <attribute name="email" optional="YES" attributeType="String"/>
         <attribute name="fullName" optional="YES" attributeType="String"/>
         <attribute name="imageUrl" optional="YES" attributeType="String" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="largeImageData" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
         <attribute name="largeImageURL" optional="YES" attributeType="String"/>
         <attribute name="mediumImageURL" optional="YES" attributeType="String"/>
         <attribute name="postcode" optional="YES" attributeType="String"/>
         <attribute name="state" optional="YES" attributeType="String"/>
+        <attribute name="thumbnailImageData" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
         <attribute name="thumbnailImageURL" optional="YES" attributeType="String"/>
     </entity>
     <elements>
-        <element name="UserLocal" positionX="-63" positionY="-18" width="128" height="224"/>
+        <element name="UserLocal" positionX="-63" positionY="-18" width="128" height="254"/>
     </elements>
 </model>
