@@ -7,9 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A3F9B80F2CC9123654F8012 /* Pods_EMAARDemoTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29D15D0AD6258C542CD252A /* Pods_EMAARDemoTest.framework */; };
+		A72390292A16630C00A28FDA /* NetworkConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72390282A16630C00A28FDA /* NetworkConstant.swift */; };
+		A725AA892A168F90009E2C93 /* UserListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A725AA882A168F90009E2C93 /* UserListInteractor.swift */; };
+		A725AA8B2A168FC3009E2C93 /* UserListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A725AA8A2A168FC3009E2C93 /* UserListPresenter.swift */; };
+		A725AA8D2A169044009E2C93 /* UserListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A725AA8C2A169044009E2C93 /* UserListRouter.swift */; };
+		A725AA8F2A16961D009E2C93 /* ServiceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A725AA8E2A16961D009E2C93 /* ServiceHelper.swift */; };
+		A748C4D52A160CC600BDB4EA /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A748C4D42A160CC600BDB4EA /* NetworkService.swift */; };
+		A748C4D82A160D5E00BDB4EA /* UserListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A748C4D72A160D5E00BDB4EA /* UserListDataSource.swift */; };
+		A748C4DA2A160DDA00BDB4EA /* UserListApiEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A748C4D92A160DDA00BDB4EA /* UserListApiEntity.swift */; };
+		A748C4DC2A160E4D00BDB4EA /* UserListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A748C4DB2A160E4D00BDB4EA /* UserListModel.swift */; };
+		A7491DC02A17BF570007B150 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7491DBF2A17BF570007B150 /* CoreDataManager.swift */; };
+		A74C60212A15D36200D51B9C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74C60202A15D36200D51B9C /* DetailViewController.swift */; };
+		A74C60262A15D86300D51B9C /* UserListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A74C60252A15D86300D51B9C /* UserListTableViewCell.m */; };
 		A765319A2A15BF9400823895 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76531992A15BF9400823895 /* AppDelegate.swift */; };
 		A765319C2A15BF9400823895 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A765319B2A15BF9400823895 /* SceneDelegate.swift */; };
-		A765319E2A15BF9400823895 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A765319D2A15BF9400823895 /* ViewController.swift */; };
 		A76531A12A15BF9400823895 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A765319F2A15BF9400823895 /* Main.storyboard */; };
 		A76531A42A15BF9400823895 /* EMAARDemoTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A76531A22A15BF9400823895 /* EMAARDemoTest.xcdatamodeld */; };
 		A76531A62A15BF9500823895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A76531A52A15BF9500823895 /* Assets.xcassets */; };
@@ -17,6 +29,15 @@
 		A76531B42A15BF9500823895 /* EMAARDemoTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76531B32A15BF9500823895 /* EMAARDemoTestTests.swift */; };
 		A76531BE2A15BF9500823895 /* EMAARDemoTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76531BD2A15BF9500823895 /* EMAARDemoTestUITests.swift */; };
 		A76531C02A15BF9500823895 /* EMAARDemoTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76531BF2A15BF9500823895 /* EMAARDemoTestUITestsLaunchTests.swift */; };
+		A76531D12A15BFD700823895 /* UserListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A76531D02A15BFD700823895 /* UserListViewController.m */; };
+		A7690E852A16A8F700CC31C2 /* UserDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7690E842A16A8F700CC31C2 /* UserDetailViewModel.swift */; };
+		A7690E872A16B50300CC31C2 /* UserListPresenterWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7690E862A16B50300CC31C2 /* UserListPresenterWrapper.swift */; };
+		A7690E8F2A1718A700CC31C2 /* UserPresenterViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A7690E8E2A1718A700CC31C2 /* UserPresenterViewModel.m */; };
+		A785226F2A17429A001FB11C /* EMAARDemoTest-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = A76531CE2A15BFD700823895 /* EMAARDemoTest-Bridging-Header.h */; };
+		A79C67A22A1834400049530F /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79C67A12A1834400049530F /* Date+Extension.swift */; };
+		A79C67A42A18473D0049530F /* RotatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79C67A32A18473D0049530F /* RotatedView.swift */; };
+		A9A09CEE58DB26E38F027AAF /* Pods_EMAARDemoTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C8F45BA376A79807A7A680 /* Pods_EMAARDemoTestTests.framework */; };
+		BC036F2278BF9625CC095E5B /* Pods_EMAARDemoTest_EMAARDemoTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA68616162CE74502018410 /* Pods_EMAARDemoTest_EMAARDemoTestUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +58,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B59B316656173ED5CF8C87A /* Pods-EMAARDemoTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMAARDemoTestTests.release.xcconfig"; path = "Target Support Files/Pods-EMAARDemoTestTests/Pods-EMAARDemoTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		3D1E2C3683E269246BE7F99D /* Pods-EMAARDemoTest-EMAARDemoTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMAARDemoTest-EMAARDemoTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-EMAARDemoTest-EMAARDemoTestUITests/Pods-EMAARDemoTest-EMAARDemoTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4CA68616162CE74502018410 /* Pods_EMAARDemoTest_EMAARDemoTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EMAARDemoTest_EMAARDemoTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F2129BACF331C562F45A3E6 /* Pods-EMAARDemoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMAARDemoTest.release.xcconfig"; path = "Target Support Files/Pods-EMAARDemoTest/Pods-EMAARDemoTest.release.xcconfig"; sourceTree = "<group>"; };
+		73C8F45BA376A79807A7A680 /* Pods_EMAARDemoTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EMAARDemoTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72390282A16630C00A28FDA /* NetworkConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstant.swift; sourceTree = "<group>"; };
+		A725AA882A168F90009E2C93 /* UserListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListInteractor.swift; sourceTree = "<group>"; };
+		A725AA8A2A168FC3009E2C93 /* UserListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListPresenter.swift; sourceTree = "<group>"; };
+		A725AA8C2A169044009E2C93 /* UserListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListRouter.swift; sourceTree = "<group>"; };
+		A725AA8E2A16961D009E2C93 /* ServiceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceHelper.swift; sourceTree = "<group>"; };
+		A748C4D42A160CC600BDB4EA /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		A748C4D72A160D5E00BDB4EA /* UserListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListDataSource.swift; sourceTree = "<group>"; };
+		A748C4D92A160DDA00BDB4EA /* UserListApiEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListApiEntity.swift; sourceTree = "<group>"; };
+		A748C4DB2A160E4D00BDB4EA /* UserListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListModel.swift; sourceTree = "<group>"; };
+		A7491DBF2A17BF570007B150 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		A74C60202A15D36200D51B9C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A74C60242A15D86300D51B9C /* UserListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserListTableViewCell.h; sourceTree = "<group>"; };
+		A74C60252A15D86300D51B9C /* UserListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserListTableViewCell.m; sourceTree = "<group>"; };
 		A76531962A15BF9400823895 /* EMAARDemoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMAARDemoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A76531992A15BF9400823895 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A765319B2A15BF9400823895 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A765319D2A15BF9400823895 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A76531A02A15BF9400823895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A76531A32A15BF9400823895 /* EMAARDemoTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EMAARDemoTest.xcdatamodel; sourceTree = "<group>"; };
 		A76531A52A15BF9500823895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +89,19 @@
 		A76531B92A15BF9500823895 /* EMAARDemoTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMAARDemoTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A76531BD2A15BF9500823895 /* EMAARDemoTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMAARDemoTestUITests.swift; sourceTree = "<group>"; };
 		A76531BF2A15BF9500823895 /* EMAARDemoTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMAARDemoTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A76531CE2A15BFD700823895 /* EMAARDemoTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EMAARDemoTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		A76531CF2A15BFD700823895 /* UserListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserListViewController.h; sourceTree = "<group>"; };
+		A76531D02A15BFD700823895 /* UserListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserListViewController.m; sourceTree = "<group>"; };
+		A7690E842A16A8F700CC31C2 /* UserDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewModel.swift; sourceTree = "<group>"; };
+		A7690E862A16B50300CC31C2 /* UserListPresenterWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListPresenterWrapper.swift; sourceTree = "<group>"; };
+		A7690E8D2A1718A700CC31C2 /* UserPresenterViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserPresenterViewModel.h; sourceTree = "<group>"; };
+		A7690E8E2A1718A700CC31C2 /* UserPresenterViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserPresenterViewModel.m; sourceTree = "<group>"; };
+		A79C67A12A1834400049530F /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		A79C67A32A18473D0049530F /* RotatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RotatedView.swift; path = EMAARDemoTest/View/RotatedView.swift; sourceTree = SOURCE_ROOT; };
+		ACA92D4B8D2278F87CBC69F7 /* Pods-EMAARDemoTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMAARDemoTestTests.debug.xcconfig"; path = "Target Support Files/Pods-EMAARDemoTestTests/Pods-EMAARDemoTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B29D15D0AD6258C542CD252A /* Pods_EMAARDemoTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EMAARDemoTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B41A5E5291FF8F5054D5D3DD /* Pods-EMAARDemoTest-EMAARDemoTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMAARDemoTest-EMAARDemoTestUITests.release.xcconfig"; path = "Target Support Files/Pods-EMAARDemoTest-EMAARDemoTestUITests/Pods-EMAARDemoTest-EMAARDemoTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DDA865F03C05F3D12325FA67 /* Pods-EMAARDemoTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMAARDemoTest.debug.xcconfig"; path = "Target Support Files/Pods-EMAARDemoTest/Pods-EMAARDemoTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A3F9B80F2CC9123654F8012 /* Pods_EMAARDemoTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9A09CEE58DB26E38F027AAF /* Pods_EMAARDemoTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +125,132 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC036F2278BF9625CC095E5B /* Pods_EMAARDemoTest_EMAARDemoTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D239882037F0C054D5BC812 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B29D15D0AD6258C542CD252A /* Pods_EMAARDemoTest.framework */,
+				4CA68616162CE74502018410 /* Pods_EMAARDemoTest_EMAARDemoTestUITests.framework */,
+				73C8F45BA376A79807A7A680 /* Pods_EMAARDemoTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A748C4D12A160C6D00BDB4EA /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				A748C4D62A160D0900BDB4EA /* Entity */,
+				A748C4D32A160C8400BDB4EA /* CoreData */,
+				A748C4D22A160C7E00BDB4EA /* Network */,
+				A748C4D72A160D5E00BDB4EA /* UserListDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		A748C4D22A160C7E00BDB4EA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A748C4D42A160CC600BDB4EA /* NetworkService.swift */,
+				A748C4D92A160DDA00BDB4EA /* UserListApiEntity.swift */,
+				A72390282A16630C00A28FDA /* NetworkConstant.swift */,
+				A725AA8E2A16961D009E2C93 /* ServiceHelper.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A748C4D32A160C8400BDB4EA /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				A7491DBF2A17BF570007B150 /* CoreDataManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		A748C4D62A160D0900BDB4EA /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		A74C60272A1600E900D51B9C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A74C602D2A16018700D51B9C /* UserDetail */,
+				A74C602C2A16017800D51B9C /* UserList */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A74C60282A1600F600D51B9C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A725AA882A168F90009E2C93 /* UserListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A74C60292A16010000D51B9C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A7690E8A2A1717E800CC31C2 /* ViewModel */,
+				A725AA8A2A168FC3009E2C93 /* UserListPresenter.swift */,
+				A7690E862A16B50300CC31C2 /* UserListPresenterWrapper.swift */,
+				A7690E842A16A8F700CC31C2 /* UserDetailViewModel.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A74C602A2A16010700D51B9C /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				A748C4DB2A160E4D00BDB4EA /* UserListModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		A74C602B2A16010F00D51B9C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				A725AA8C2A169044009E2C93 /* UserListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		A74C602C2A16017800D51B9C /* UserList */ = {
+			isa = PBXGroup;
+			children = (
+				A74C602E2A16019D00D51B9C /* Cell */,
+				A76531CF2A15BFD700823895 /* UserListViewController.h */,
+				A76531D02A15BFD700823895 /* UserListViewController.m */,
+			);
+			path = UserList;
+			sourceTree = "<group>";
+		};
+		A74C602D2A16018700D51B9C /* UserDetail */ = {
+			isa = PBXGroup;
+			children = (
+				A74C60202A15D36200D51B9C /* DetailViewController.swift */,
+				A79C67A32A18473D0049530F /* RotatedView.swift */,
+			);
+			path = UserDetail;
+			sourceTree = "<group>";
+		};
+		A74C602E2A16019D00D51B9C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A74C60242A15D86300D51B9C /* UserListTableViewCell.h */,
+				A74C60252A15D86300D51B9C /* UserListTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		A765318D2A15BF9400823895 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +258,8 @@
 				A76531B22A15BF9500823895 /* EMAARDemoTestTests */,
 				A76531BC2A15BF9500823895 /* EMAARDemoTestUITests */,
 				A76531972A15BF9400823895 /* Products */,
+				FABD9CE45D72F42D6229EE14 /* Pods */,
+				0D239882037F0C054D5BC812 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +276,21 @@
 		A76531982A15BF9400823895 /* EMAARDemoTest */ = {
 			isa = PBXGroup;
 			children = (
+				A79C67A02A18342C0049530F /* Helper */,
 				A76531992A15BF9400823895 /* AppDelegate.swift */,
 				A765319B2A15BF9400823895 /* SceneDelegate.swift */,
-				A765319D2A15BF9400823895 /* ViewController.swift */,
+				A748C4D12A160C6D00BDB4EA /* DataSource */,
+				A74C60272A1600E900D51B9C /* View */,
+				A74C60282A1600F600D51B9C /* Interactor */,
+				A74C60292A16010000D51B9C /* Presenter */,
+				A74C602A2A16010700D51B9C /* Entity */,
+				A74C602B2A16010F00D51B9C /* Router */,
 				A765319F2A15BF9400823895 /* Main.storyboard */,
 				A76531A52A15BF9500823895 /* Assets.xcassets */,
 				A76531A72A15BF9500823895 /* LaunchScreen.storyboard */,
 				A76531AA2A15BF9500823895 /* Info.plist */,
 				A76531A22A15BF9400823895 /* EMAARDemoTest.xcdatamodeld */,
+				A76531CE2A15BFD700823895 /* EMAARDemoTest-Bridging-Header.h */,
 			);
 			path = EMAARDemoTest;
 			sourceTree = "<group>";
@@ -130,6 +312,36 @@
 			path = EMAARDemoTestUITests;
 			sourceTree = "<group>";
 		};
+		A7690E8A2A1717E800CC31C2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A7690E8D2A1718A700CC31C2 /* UserPresenterViewModel.h */,
+				A7690E8E2A1718A700CC31C2 /* UserPresenterViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A79C67A02A18342C0049530F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A79C67A12A1834400049530F /* Date+Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FABD9CE45D72F42D6229EE14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDA865F03C05F3D12325FA67 /* Pods-EMAARDemoTest.debug.xcconfig */,
+				5F2129BACF331C562F45A3E6 /* Pods-EMAARDemoTest.release.xcconfig */,
+				3D1E2C3683E269246BE7F99D /* Pods-EMAARDemoTest-EMAARDemoTestUITests.debug.xcconfig */,
+				B41A5E5291FF8F5054D5D3DD /* Pods-EMAARDemoTest-EMAARDemoTestUITests.release.xcconfig */,
+				ACA92D4B8D2278F87CBC69F7 /* Pods-EMAARDemoTestTests.debug.xcconfig */,
+				2B59B316656173ED5CF8C87A /* Pods-EMAARDemoTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +349,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A76531C32A15BF9500823895 /* Build configuration list for PBXNativeTarget "EMAARDemoTest" */;
 			buildPhases = (
+				2038C57D8D3D7C3EC1B91C8C /* [CP] Check Pods Manifest.lock */,
 				A76531922A15BF9400823895 /* Sources */,
 				A76531932A15BF9400823895 /* Frameworks */,
 				A76531942A15BF9400823895 /* Resources */,
+				7B7B8DBC766788C64C05B452 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +368,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A76531C62A15BF9500823895 /* Build configuration list for PBXNativeTarget "EMAARDemoTestTests" */;
 			buildPhases = (
+				221B6D2D1AAB268D1CCC8C8F /* [CP] Check Pods Manifest.lock */,
 				A76531AB2A15BF9500823895 /* Sources */,
 				A76531AC2A15BF9500823895 /* Frameworks */,
 				A76531AD2A15BF9500823895 /* Resources */,
@@ -172,9 +387,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A76531C92A15BF9500823895 /* Build configuration list for PBXNativeTarget "EMAARDemoTestUITests" */;
 			buildPhases = (
+				2EF8A679297B07F1C99DB53B /* [CP] Check Pods Manifest.lock */,
 				A76531B52A15BF9500823895 /* Sources */,
 				A76531B62A15BF9500823895 /* Frameworks */,
 				A76531B72A15BF9500823895 /* Resources */,
+				53CCF6B0B53586F46BFEC4E6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -198,6 +415,7 @@
 				TargetAttributes = {
 					A76531952A15BF9400823895 = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 					};
 					A76531AE2A15BF9500823895 = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -256,15 +474,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2038C57D8D3D7C3EC1B91C8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EMAARDemoTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		221B6D2D1AAB268D1CCC8C8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EMAARDemoTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EF8A679297B07F1C99DB53B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EMAARDemoTest-EMAARDemoTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53CCF6B0B53586F46BFEC4E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EMAARDemoTest-EMAARDemoTestUITests/Pods-EMAARDemoTest-EMAARDemoTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EMAARDemoTest-EMAARDemoTestUITests/Pods-EMAARDemoTest-EMAARDemoTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EMAARDemoTest-EMAARDemoTestUITests/Pods-EMAARDemoTest-EMAARDemoTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B7B8DBC766788C64C05B452 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EMAARDemoTest/Pods-EMAARDemoTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EMAARDemoTest/Pods-EMAARDemoTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EMAARDemoTest/Pods-EMAARDemoTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A76531922A15BF9400823895 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A765319E2A15BF9400823895 /* ViewController.swift in Sources */,
+				A785226F2A17429A001FB11C /* EMAARDemoTest-Bridging-Header.h in Sources */,
+				A76531D12A15BFD700823895 /* UserListViewController.m in Sources */,
+				A748C4DC2A160E4D00BDB4EA /* UserListModel.swift in Sources */,
+				A7690E872A16B50300CC31C2 /* UserListPresenterWrapper.swift in Sources */,
+				A725AA892A168F90009E2C93 /* UserListInteractor.swift in Sources */,
+				A7690E8F2A1718A700CC31C2 /* UserPresenterViewModel.m in Sources */,
+				A79C67A42A18473D0049530F /* RotatedView.swift in Sources */,
+				A748C4DA2A160DDA00BDB4EA /* UserListApiEntity.swift in Sources */,
+				A72390292A16630C00A28FDA /* NetworkConstant.swift in Sources */,
 				A76531A42A15BF9400823895 /* EMAARDemoTest.xcdatamodeld in Sources */,
+				A74C60212A15D36200D51B9C /* DetailViewController.swift in Sources */,
+				A748C4D82A160D5E00BDB4EA /* UserListDataSource.swift in Sources */,
+				A79C67A22A1834400049530F /* Date+Extension.swift in Sources */,
+				A7491DC02A17BF570007B150 /* CoreDataManager.swift in Sources */,
+				A7690E852A16A8F700CC31C2 /* UserDetailViewModel.swift in Sources */,
+				A725AA8D2A169044009E2C93 /* UserListRouter.swift in Sources */,
+				A725AA8B2A168FC3009E2C93 /* UserListPresenter.swift in Sources */,
 				A765319A2A15BF9400823895 /* AppDelegate.swift in Sources */,
+				A74C60262A15D86300D51B9C /* UserListTableViewCell.m in Sources */,
 				A765319C2A15BF9400823895 /* SceneDelegate.swift in Sources */,
+				A748C4D52A160CC600BDB4EA /* NetworkService.swift in Sources */,
+				A725AA8F2A16961D009E2C93 /* ServiceHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +710,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -426,7 +765,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -438,9 +777,11 @@
 		};
 		A76531C42A15BF9500823895 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDA865F03C05F3D12325FA67 /* Pods-EMAARDemoTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 779VENNDZ9;
@@ -448,9 +789,9 @@
 				INFOPLIST_FILE = EMAARDemoTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +800,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.parveen.Demo.EMAARDemoTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "EMAARDemoTest/EMAARDemoTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -466,9 +809,11 @@
 		};
 		A76531C52A15BF9500823895 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F2129BACF331C562F45A3E6 /* Pods-EMAARDemoTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 779VENNDZ9;
@@ -476,9 +821,9 @@
 				INFOPLIST_FILE = EMAARDemoTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -487,6 +832,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.parveen.Demo.EMAARDemoTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "EMAARDemoTest/EMAARDemoTest-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -494,6 +840,7 @@
 		};
 		A76531C72A15BF9500823895 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACA92D4B8D2278F87CBC69F7 /* Pods-EMAARDemoTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +861,7 @@
 		};
 		A76531C82A15BF9500823895 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B59B316656173ED5CF8C87A /* Pods-EMAARDemoTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -534,6 +882,7 @@
 		};
 		A76531CA2A15BF9500823895 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D1E2C3683E269246BE7F99D /* Pods-EMAARDemoTest-EMAARDemoTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -552,6 +901,7 @@
 		};
 		A76531CB2A15BF9500823895 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B41A5E5291FF8F5054D5D3DD /* Pods-EMAARDemoTest-EMAARDemoTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

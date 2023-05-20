@@ -1,0 +1,6 @@
+framework module Pods_EMAARDemoTest_EMAARDemoTestUITests {
+  umbrella header "Pods-EMAARDemoTest-EMAARDemoTestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

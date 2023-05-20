@@ -10,11 +10,24 @@ import CoreData
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+  
+    var coreDataManager: UserCoreDataManager!
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let persistentContainer = NSPersistentContainer(name: "EMAARDemoTest")
+        persistentContainer.loadPersistentStores { (_, error) in
+            if let error = error as NSError? {
+                fatalError("Failed to load persistent stores: \(error), \(error.userInfo)")
+            }
+        }
+        
+        // Create UserCoreDataManager
+        let context = persistentContainer.viewContext
+        coreDataManager = UserCoreDataManager(context: context)
+        
+        
         return true
     }
 
@@ -46,7 +59,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
                 // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-                 
+
                 /*
                  Typical reasons for an error here include:
                  * The parent directory does not exist, cannot be created, or disallows writing.
@@ -61,8 +74,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return container
     }()
 
-    // MARK: - Core Data Saving support
-
+//    // MARK: - Core Data Saving support
+//
     func saveContext () {
         let context = persistentContainer.viewContext
         if context.hasChanges {
@@ -74,6 +87,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 let nserror = error as NSError
                 fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
             }
+        }
+    }
+    
+    func applicationWillTerminate(_ application: UIApplication) {
+        // Save changes when the app is about to terminate
+        do {
+            try coreDataManager.context.save()
+        } catch {
+            // Handle save error
+            print("Failed to save context: \(error)")
         }
     }
 
